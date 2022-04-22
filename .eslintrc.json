@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {
+      "comma-dangle": ["error", "never"],
+      "semi":["error", "never"]
+    },
+    "env": {
+      "node": true
+    }
+}
