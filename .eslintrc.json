@@ -2,12 +2,10 @@
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-  "extends": [
-      "eslint:recommended"
-  ],
+  "extends": ["eslint:recommended", "prettier"],
   "rules": {
     "comma-dangle": ["error", "never"],
-    "semi":["error", "never"]
+    "semi": ["error", "never"]
   },
   "env": {
     "node": true
