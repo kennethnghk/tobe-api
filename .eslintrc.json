@@ -1,12 +1,15 @@
 {
-    "extends": [
-        "eslint:recommended"
-    ],
-    "rules": {
-      "comma-dangle": ["error", "never"],
-      "semi":["error", "never"]
-    },
-    "env": {
-      "node": true
-    }
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "extends": [
+      "eslint:recommended"
+  ],
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "semi":["error", "never"]
+  },
+  "env": {
+    "node": true
+  }
 }
